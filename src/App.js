@@ -32,7 +32,7 @@ export default function App() {
             </a>
             and hosted on{" "}
             <a
-              href="https://react-weather-forecast-cb.netlify.app/"
+              href="https://github.com/bhaleraocharul/dictionary-project"
               target="_blank"
               rel="noreferrer"
             >
