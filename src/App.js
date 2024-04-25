@@ -10,10 +10,35 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="hello" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Charul</small>
+          <p>
+            This project was coded by{" "}
+            <a
+              href="https://github.com/bhaleraocharul/react-weather-forecast/tree/master"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Charul Bhalerao
+            </a>
+            , is{" "}
+            <a
+              href="https://github.com/bhaleraocharul/react-weather-forecast/tree/master"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on Github{" "}
+            </a>
+            and hosted on{" "}
+            <a
+              href="https://react-weather-forecast-cb.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify💖
+            </a>
+          </p>
         </footer>
       </div>
     </div>
